@@ -1,12 +1,12 @@
 import React, { useReduicer } from 'react';
 import uuid from 'uuid';
-import { SET_CURRENT } from '../types';
+
 import ContactContext from './contactContext';
 import contactReducer from './contactReducer';
 import {
     ADD_CONTACT,
     DELETE_CONTACT,
-    SET_CURRENT,
+    
     CLEAR_CURRENT,
     UPDATE_CONTACT,
     FILTER_CONTACTS,
